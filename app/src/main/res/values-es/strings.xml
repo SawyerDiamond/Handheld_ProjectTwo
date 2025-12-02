@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SurfFlow</string>
+    
+    <!-- Login -->
+    <string name="login_title">Inicio de Sesión SurfFlow</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="signup_prompt">¿No tienes cuenta? Regístrate</string>
+    <string name="auth_failed">Error de autenticación: %s</string>
+    <string name="enter_email_password">Por favor ingrese correo y contraseña</string>
+
+    <!-- SignUp -->
+    <string name="create_account">Crear Cuenta</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="signup_button">Registrarse</string>
+    <string name="passwords_mismatch">Las contraseñas no coinciden</string>
+    <string name="fill_all_fields">Por favor llene todos los campos</string>
+    <string name="signup_failed">Registro fallido: %s</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Perfil</string>
+    <string name="logged_in_as">Conectado como: %s</string>
+    <string name="gemini_title">Asesor de Surf Gemini</string>
+    <string name="gemini_hint">Pregunta sobre las condiciones...</string>
+    <string name="gemini_button">Preguntar a Gemini</string>
+    <string name="gemini_loading">Preguntando a Gemini...</string>
+    <string name="favorite_spot_title">Mi Lugar Favorito</string>
+    <string name="favorite_spot_hint">Ingrese nombre del lugar</string>
+    <string name="save_button">Guardar en Firebase</string>
+    <string name="saved_toast">¡Guardado!</string>
+    <string name="save_failed_toast">Error al guardar</string>
+    <string name="logout_button">Cerrar Sesión</string>
+
+    <!-- Home/Forecast -->
+    <string name="profile_button">Perfil</string>
+    <string name="surf_spot_label">Lugar de Surf</string>
+    <string name="current_conditions_title">Condiciones Actuales</string>
+    <string name="forecast_title">Pronóstico 24 Horas</string>
+    <string name="error_title">Error</string>
+    <string name="retry_button">Reintentar</string>
+    <string name="wave_height">Altura Ola</string>
+    <string name="period">Periodo</string>
+    <string name="direction">Dirección</string>
+    <string name="swell">Oleaje</string>
+    <string name="swell_period">Periodo Oleaje</string>
+    <string name="water_temp">Temp. Agua</string>
+    <string name="unknown_error">Error desconocido</string>
+</resources>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SurfFlow</string>
+    
+    <!-- Login -->
+    <string name="login_title">SurfFlow Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_prompt">Don\'t have an account? Sign Up</string>
+    <string name="auth_failed">Authentication failed: %s</string>
+    <string name="enter_email_password">Please enter email and password</string>
+
+    <!-- SignUp -->
+    <string name="create_account">Create Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="passwords_mismatch">Passwords do not match</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="signup_failed">Sign up failed: %s</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="logged_in_as">Logged in as: %s</string>
+    <string name="gemini_title">Gemini Surf Advisor</string>
+    <string name="gemini_hint">Ask about surf conditions...</string>
+    <string name="gemini_button">Ask Gemini</string>
+    <string name="gemini_loading">Asking Gemini...</string>
+    <string name="favorite_spot_title">My Favorite Spot</string>
+    <string name="favorite_spot_hint">Enter spot name</string>
+    <string name="save_button">Save to Firebase</string>
+    <string name="saved_toast">Saved!</string>
+    <string name="save_failed_toast">Failed to save</string>
+    <string name="logout_button">Logout</string>
+
+    <!-- Home/Forecast -->
+    <string name="profile_button">Profile</string>
+    <string name="surf_spot_label">Surf Spot</string>
+    <string name="current_conditions_title">Current Conditions</string>
+    <string name="forecast_title">24 Hour Forecast</string>
+    <string name="error_title">Error</string>
+    <string name="retry_button">Retry</string>
+    <string name="wave_height">Wave Height</string>
+    <string name="period">Period</string>
+    <string name="direction">Direction</string>
+    <string name="swell">Swell</string>
+    <string name="swell_period">Swell Period</string>
+    <string name="water_temp">Water Temp</string>
+    <string name="unknown_error">Unknown error</string>
+</resources>
