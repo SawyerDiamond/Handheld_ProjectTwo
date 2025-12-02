@@ -9,6 +9,7 @@
     <string name="signup_prompt">Don\'t have an account? Sign Up</string>
     <string name="auth_failed">Authentication failed: %s</string>
     <string name="enter_email_password">Please enter email and password</string>
+    <string name="remember_me">Remember Me</string>
 
     <!-- SignUp -->
     <string name="create_account">Create Account</string>

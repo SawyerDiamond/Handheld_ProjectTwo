@@ -94,6 +94,18 @@ fun LoginScreen(onLoginSuccess: () -> Unit, onNavigateToSignUp: () -> Unit) {
         )
         Spacer(modifier = Modifier.height(8.dp))
 
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text(text = stringResource(R.string.remember_me), modifier = Modifier.weight(1f))
+            Switch(
+                checked = rememberMe,
+                onCheckedChange = { rememberMe = it }
+            )
+        }
+        Spacer(modifier = Modifier.height(16.dp))
+
         if (isLoading) {
             CircularProgressIndicator()
         } else {
@@ -115,13 +127,13 @@ fun LoginScreen(onLoginSuccess: () -> Unit, onNavigateToSignUp: () -> Unit) {
                                 } else {
                                     Toast.makeText(
                                         context,
-                                        "Authentication failed: ${task.exception?.message}",
+                                        context.getString(R.string.auth_failed, task.exception?.message ?: ""),
                                         Toast.LENGTH_SHORT
                                     ).show()
                                 }
                             }
                     } else {
-                        Toast.makeText(context, "Please enter email and password", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, context.getString(R.string.enter_email_password), Toast.LENGTH_SHORT).show()
                     }
                 },
                 modifier = Modifier.fillMaxWidth()

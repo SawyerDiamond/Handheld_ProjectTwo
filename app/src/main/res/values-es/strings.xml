@@ -10,6 +10,7 @@
     <string name="signup_prompt">¿No tienes cuenta? Regístrate</string>
     <string name="auth_failed">Error de autenticación: %s</string>
     <string name="enter_email_password">Por favor ingrese correo y contraseña</string>
+    <string name="remember_me">Recuérdame</string>
 
     <!-- SignUp -->
     <string name="create_account">Crear Cuenta</string>
